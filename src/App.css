@@ -1,0 +1,65 @@
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flexbox;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.componentsadjust{
+  align-content: flex-end;
+}
+
+.flexbox2{
+  justify-content: space-around;
+    display: flexbox;
+    flex-direction: top;
+
+    
+  }
+
+  .viewtable{
+    float:right;    
+  }
+
+  .flex1{
+    display: flex;
+    
+  }
+
+  .coldata{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+
+  .coldata td
+{
+    font-size : 15px;
+}
+
+.colheading{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.colheading th {
+  font-size : 17px;
+}
